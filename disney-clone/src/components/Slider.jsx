@@ -3,6 +3,9 @@ import GlobalApi from '../Services/GlobalApi'
 import { useEffect } from 'react';
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
+/**
+ * @author: Aadarsh Gupta
+ */
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original";
 const screenWidth=window.innerWidth;
 
