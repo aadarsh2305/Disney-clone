@@ -47,8 +47,10 @@ function ProductionHouse() {
             {productionHouseList.map((item) => (
                 <div className='border-[2px] border-gray-600 rounded-lg hover:scale-105 transition-all duration-300 ease-out cursor-pointer relative shadow-xl shadow-gray-800 '>
 
-                    <video src={item.video} autoPlay loop playsInline className='absolute top-0 rounded-md z-0 opacity-0 hover:opacity-50' />
-                    
+                    <video 
+                    src={item.video} 
+                    autoPlay loop playsInline muted
+                    className='absolute top-0 rounded-md z-0 opacity-0 hover:opacity-50' />
                     <img src={item.image} className='w-full z-[1]' />
 
                 </div>
