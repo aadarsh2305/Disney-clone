@@ -15,7 +15,7 @@ import { HiPlus, HiDotsVertical } from "react-icons/hi";
  * @author: Aadarsh Gupta
  */
 function Header() {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   const menu = [
     {
