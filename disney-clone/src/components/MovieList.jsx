@@ -39,9 +39,12 @@ function MovieList({ genreId, index_ }) {
 
       <div ref={elementRef} className="flex overflow-x-auto gap-8 scrollbar-hide scroll-smooth pt-5 px-3 pb-5">
         {MovieList.map((item, index) => (
-            <>
-           {index_%3==0? <HrMovieCard movie={item}/> : <MovieCard movie={item}/>}
-           </>
+        
+        //   This is used for an extra card which will be horizontal otherwise it will be vertical 
+        //     <>
+        //    {index_%3==0? <HrMovieCard movie={item}/> : <MovieCard movie={item}/>}
+        //    </>
+           <MovieCard movie={item}></MovieCard>
         ))}
       </div>
 
