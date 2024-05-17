@@ -9,6 +9,7 @@ function Footer() {
         <footer className="bg-gray-800 text-white py-8">
           <div className="container mx-auto text-center">
             <div className="flex justify-center mb-4">
+              <p>Reach out to me :</p>
               <a href="https://www.linkedin.com/in/aadarshgupta2305/" target="_blank" rel="noopener noreferrer" className="mx-2">
                 <img src={Linkedin} alt="Linkedin" className="h-10 w-10" />
               </a>
