@@ -7,16 +7,15 @@ Welcome to the Disney-Clone project! This is a fully responsive web application 
 - **Responsive Design:** Fully responsive design that works on desktops, tablets, and mobile devices.
 - **React Library:** Built using the powerful and flexible React library.
 - **Disney API Integration:** Fetches data directly from the Disney API to display movies and TV shows.
-- **User Authentication:** Basic authentication features for user login and registration.
 - **Modern UI:** Clean and modern user interface inspired by Disney+.
 
 ## Demo
 
-Check out the live demo [here](#).
+Check out the live demo [here](https://disney-clone-addy.vercel.app/).
 
 ## Screenshots
 
-![Home Screen](public/Homepage%20SS.png)
+![Home Screen](disney-clone/src/assets/Homepage_ss/Home.png "Home screen screenshot")
 
 ## Installation
 
@@ -33,24 +32,8 @@ Check out the live demo [here](#).
 
 3. Start the development server:
     ```bash
-    npm start
+    npm run dev
     ```
 
-The application will be available at `http://localhost:3000`.
+The application will be available at `http://localhost:5173`
 
-## Usage
-
-1. **Home Page:** Browse through the various categories of movies and TV shows.
-2. **Details Page:** Click on any movie or TV show to view detailed information.
-3. **Search:** Use the search bar to find your favorite Disney content.
-4. **Authentication:** Log in or register to access personalized features.
-
-## Technologies Used
-
-- **React:** Front-end library for building user interfaces.
-- **Disney API:** Source of data for movies and TV shows.
-- **React Router:** For routing and navigation.
-- **Redux:** State management.
-- **Axios:** For making HTTP requests.
-- **Styled Components:** For styling React components.
-- **Firebase:** For user authentication and database.
