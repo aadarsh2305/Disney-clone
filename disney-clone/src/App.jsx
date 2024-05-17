@@ -1,5 +1,6 @@
 
 import "./App.css";
+import Footer from "./components/Footer";
 import GenreMovieList from "./components/GenreMovieList";
 import Header from "./components/Header";
 import ProductionHouse from "./components/ProductionHouse";
@@ -16,6 +17,7 @@ function App() {
       <Slider />
       <ProductionHouse />
       <GenreMovieList />
+      <Footer />
     </div>
   );
 }
