@@ -21,7 +21,7 @@ Check out the live demo [here](https://disney-clone-addy.vercel.app/).
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/disney-clone.git
+    git clone https://github.com/aadarsh2305/Disney-clone.git
     cd disney-clone
     ```
 
