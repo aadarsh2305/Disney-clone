@@ -26,7 +26,9 @@ function Footer() {
                     </div>
                 </div>
                 <p className="text-sm mt-4 ">
+                  <i>
                     © {new Date().getFullYear()} Disney Clone. Powered by Aadarsh Gupta using React, Vite, and Tailwind CSS.
+                  </i>
                 </p>
             </div>
         </footer>
